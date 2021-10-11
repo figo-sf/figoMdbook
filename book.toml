@@ -1,0 +1,6 @@
+[book]
+authors = ["shefei"]
+language = "en"
+multilingual = false
+src = "src"
+title = "figo mdbook"
