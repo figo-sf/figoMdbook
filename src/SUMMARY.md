@@ -1,3 +1,3 @@
 # Summary
 
-- [Chapter 1](./fmt.md)
+- [rust fmt](./fmt.md)

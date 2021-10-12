@@ -4,3 +4,10 @@ language = "en"
 multilingual = false
 src = "src"
 title = "figo mdbook"
+
+[output.html.playpen]
+editable = true
+editor = "ace"
+
+[output.html.fold]
+enable = true
