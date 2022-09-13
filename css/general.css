@@ -10,8 +10,9 @@
 html {
     font-family: "Open Sans", sans-serif;
     color: var(--fg);
-    background-color: var(--bg);
     text-size-adjust: none;
+    background-image: url(https://s.cn.bing.net/th?id=OHR.CircumnavigationAnni_ZH-CN6835512993_1920x1080.jpg&rf=LaDigue_1920x1080.jpg);
+    opacity: 1;
 }
 
 body {
