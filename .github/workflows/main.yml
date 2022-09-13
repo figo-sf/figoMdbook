@@ -34,6 +34,7 @@ jobs:
           publish_dir: ./book
         
   call-workflow-in-another-repo:
-    uses: figo-sf/BingWallpaper/.github/workflows/main.yml@v1
+    uses: figo-sf/BingWallpaper/.github/workflows/main.yml@main
     with:
       username: figo
+    
