@@ -33,7 +33,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./book
         
-        call-workflow-in-another-repo:
-          uses: figo-sf/BingWallpaper/.github/workflows/main.yml@v1
-          with:
-            username: figo
+  call-workflow-in-another-repo:
+    uses: figo-sf/BingWallpaper/.github/workflows/main.yml@v1
+    with:
+      username: figo
