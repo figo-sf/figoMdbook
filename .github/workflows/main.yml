@@ -32,7 +32,8 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./book
-          
-      - name: call-workflow 
-        uses: figo-sf/BingWallpaper/.github/workflows/main.yml@main
+        
+  call-workflow-in-another-repo:
+    uses: figo-sf/BingWallpaper/.github/workflows/main.yml@main
+    needs: deploy
     
