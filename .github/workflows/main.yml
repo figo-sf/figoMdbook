@@ -35,6 +35,4 @@ jobs:
         
   call-workflow-in-another-repo:
     uses: figo-sf/BingWallpaper/.github/workflows/main.yml@main
-    with:
-      username: figo
     
