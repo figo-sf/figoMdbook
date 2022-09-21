@@ -18,6 +18,13 @@ a > .hljs {
     color: var(--links);
 }
 
+
+.footer{
+    margin-bottom: 60px;
+    position: relative;
+    height: 60px;
+    text-align: center;
+}
 /* Menu Bar */
 
 #menu-bar,
